@@ -1,0 +1,36 @@
+   /*==============================
+     buttons
+    ==============================*/
+    @mixin button {
+        color: white;
+        font-family: $body-font;
+        font-weight: bold;
+        font-size: 1.1rem;
+        padding: 1rem 2rem;
+        background: $black;
+        border-radius: 10rem;
+        
+    }
+    @mixin button-hover {
+        color: $black;
+        background: lawngreen;
+        
+    }
+
+    @mixin  transition {
+        transition: .5s ease-in-out;
+    }
+    @mixin transform {
+        transform: translateY(1rem);
+    }
+
+    @mixin sign-in-button {
+        color: white;
+        font-family: $body-font;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: .7rem 1rem;
+        background: $black;
+        border-radius: .3rem;
+        
+    }

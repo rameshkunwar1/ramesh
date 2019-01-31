@@ -1,0 +1,41 @@
+    /*==============================
+            COLORS
+==============================*/
+
+$black: #000;
+$white:#fff;
+$gray: #EBEBEB;
+$light-black: #171717;
+
+    /*==============================
+           Fonts
+==============================*/
+$banner-font: 'Alfa Slab One', cursive;
+$body-font:'Didact Gothic', sans-serif;
+
+$center: center;
+
+
+  /*==============================
+          MEDIA QUERIES
+==============================*/
+$mobile : "(max-width:500px)";
+$tab : "(max-width:800px)";
+
+
+  /*==============================
+    extends
+==============================*/
+
+ @mixin  grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit , minmax(280px , 1fr));
+     grid-gap: 1rem;
+ }
+
+
+
+ @mixin flex{
+     display: flex;
+     flex-wrap: wrap;
+ }
